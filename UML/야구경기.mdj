@@ -1,0 +1,619 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGUkaP+NSYBt7M=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "야구경기",
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGUkaU2oSYHltM=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaP+NSYBt7M="
+							},
+							"model": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGUkaU2oSYIk/8=",
+									"_parent": {
+										"$ref": "AAAAAAGUkaU2oSYHltM="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkaU2oSYFNO4="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkaU2oSYJK6w=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYIk/8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 16,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkaU2oSYKXEU=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYIk/8="
+											},
+											"font": "Arial;13;1",
+											"left": 101,
+											"top": 359,
+											"width": 167,
+											"height": 13,
+											"text": "야구 선수"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkaU2oSYLM94=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYIk/8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 16,
+											"width": 77.9365234375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkaU2oSYM3H0=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYIk/8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 16,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 352,
+									"width": 177,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGUkaU2oSYJK6w="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGUkaU2oSYKXEU="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGUkaU2oSYLM94="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGUkaU2oSYM3H0="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGUkaU2oSYNuiQ=",
+									"_parent": {
+										"$ref": "AAAAAAGUkaU2oSYHltM="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkaU2oSYFNO4="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkaa5oSZC6RY=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkaa5niY/Cb4="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 382,
+											"width": 167,
+											"height": 13,
+											"text": "-선수코드: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkadJ0yZKq4g=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkadJzyZHYho="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 397,
+											"width": 167,
+											"height": 13,
+											"text": "-이름: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkaeB+iZR05g=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkaeB9yZOxKM="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 412,
+											"width": 167,
+											"height": 13,
+											"text": "-포지션[2]: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkaf4GSZYKe0=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkaf4FiZVdWU="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 427,
+											"width": 167,
+											"height": 13,
+											"text": "-경기수: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkauw2CZ1RtI=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkauw0SZyTZg="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 442,
+											"width": 167,
+											"height": 13,
+											"text": "-경력: int {경력>0}",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGUkaiK8yZgZL4=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYNuiQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkaiK8SZduYg="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 457,
+											"width": 167,
+											"height": 13,
+											"text": "#승점: int",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 377,
+									"width": 177,
+									"height": 98
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGUkaU2oSYO2ug=",
+									"_parent": {
+										"$ref": "AAAAAAGUkaU2oSYHltM="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkaU2oSYFNO4="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGUkam8+iZofXU=",
+											"_parent": {
+												"$ref": "AAAAAAGUkaU2oSYO2ug="
+											},
+											"model": {
+												"$ref": "AAAAAAGUkam89SZlx38="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 480,
+											"width": 167,
+											"height": 13,
+											"text": "+연봉조정(승점: int): int",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 475,
+									"width": 177,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGUkaU2oSYPQKs=",
+									"_parent": {
+										"$ref": "AAAAAAGUkaU2oSYHltM="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkaU2oSYFNO4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGUkaU2oiYQ4P4=",
+									"_parent": {
+										"$ref": "AAAAAAGUkaU2oSYHltM="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkaU2oSYFNO4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 8,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 96,
+							"top": 352,
+							"width": 177,
+							"height": 153,
+							"nameCompartment": {
+								"$ref": "AAAAAAGUkaU2oSYIk/8="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGUkaU2oSYNuiQ="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGUkaU2oSYO2ug="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGUkaU2oSYPQKs="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGUkaU2oiYQ4P4="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGUkazCECaAHHg=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaP+NSYBt7M="
+							},
+							"model": {
+								"$ref": "AAAAAAGUkazCECZ+Emg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGUkazCECaBaPY=",
+									"_parent": {
+										"$ref": "AAAAAAGUkazCECaAHHg="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkazCECZ+Emg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkazCECaCMYk=",
+											"_parent": {
+												"$ref": "AAAAAAGUkazCECaBaPY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -16,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkazCECaDmVc=",
+											"_parent": {
+												"$ref": "AAAAAAGUkazCECaBaPY="
+											},
+											"font": "Arial;13;1",
+											"left": 325,
+											"top": 359,
+											"width": 95,
+											"height": 13,
+											"text": "팀구단"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkazCECaE3Nw=",
+											"_parent": {
+												"$ref": "AAAAAAGUkazCECaBaPY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -16,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGUkazCECaF81I=",
+											"_parent": {
+												"$ref": "AAAAAAGUkazCECaBaPY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -16,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 352,
+									"width": 105,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGUkazCECaCMYk="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGUkazCECaDmVc="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGUkazCECaE3Nw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGUkazCECaF81I="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGUkazCECaGgDs=",
+									"_parent": {
+										"$ref": "AAAAAAGUkazCECaAHHg="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkazCECZ+Emg="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 377,
+									"width": 105,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGUkazCECaHmzA=",
+									"_parent": {
+										"$ref": "AAAAAAGUkazCECaAHHg="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkazCECZ+Emg="
+									},
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 387,
+									"width": 105,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGUkazCECaIyIk=",
+									"_parent": {
+										"$ref": "AAAAAAGUkazCECaAHHg="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkazCECZ+Emg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -56,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGUkazCECaJ8aM=",
+									"_parent": {
+										"$ref": "AAAAAAGUkazCECaAHHg="
+									},
+									"model": {
+										"$ref": "AAAAAAGUkazCECZ+Emg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -56,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 320,
+							"top": 352,
+							"width": 105,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAGUkazCECaBaPY="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGUkazCECaGgDs="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGUkazCECaHmzA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGUkazCECaIyIk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGUkazCECaJ8aM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGUkaU2oSYFNO4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "야구 선수",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkaa5niY/Cb4=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "선수코드",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkadJzyZHYho=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "이름",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkaeB9yZOxKM=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "포지션[2]",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkaf4FiZVdWU=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "경기수",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkauw0SZyTZg=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "경력",
+							"visibility": "private",
+							"type": "int {경력>0}"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGUkaiK8SZduYg=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "승점",
+							"visibility": "protected",
+							"type": "int"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGUkam89SZlx38=",
+							"_parent": {
+								"$ref": "AAAAAAGUkaU2oSYFNO4="
+							},
+							"name": "연봉조정",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGUkanuriZsXLU=",
+									"_parent": {
+										"$ref": "AAAAAAGUkam89SZlx38="
+									},
+									"name": "승점",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGUkar51yZv+TU=",
+									"_parent": {
+										"$ref": "AAAAAAGUkam89SZlx38="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGUkazCECZ+Emg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "팀구단"
+				}
+			]
+		}
+	]
+}
